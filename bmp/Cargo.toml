@@ -1,0 +1,11 @@
+[package]
+name = "bmp"
+version = "0.1.0"
+authors = ["Brad Aylsworth <Brad.Aylsworth@gmail.com>"]
+
+[dependencies]
+gtk = "0.0.3"
+
+[dependencies.gtk]
+git = "https://github.com/rust-gnome/gtk.git"
+features = ["gtk_3_14"]
